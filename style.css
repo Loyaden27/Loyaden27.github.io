@@ -68,9 +68,12 @@ h2 {
 }
 
 footer {
-  background-color: #eee;
-  padding: 1rem 0;
-  width: 100%;
+   max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  background-color: transparent;
+  color: var(--text);
+  width: 100%
 }
 
 .footer-inner {

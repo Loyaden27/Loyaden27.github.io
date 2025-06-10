@@ -1,9 +1,9 @@
 /* style.css — shared across all pages */
 :root {
-  --bg: #ffffff;         /* White background for clarity */
-  --text: #1e1e1e;        /* Dark gray text for readability */
-  --accent: #0077cc;      /* Blue accent */
-  --highlight: #f2f9ff;   /* Light blue-gray for nav background */
+  --bg: #f9f9fb;
+  --text: #1e1e1e;
+  --accent: #0077cc;
+  --highlight: #eef6fc;
   --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -55,8 +55,7 @@ main {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1.5rem;
-  background-color: transparent;
-  color: var(--text);
+}
 
 section {
   margin-bottom: 2rem;
@@ -67,16 +66,15 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-/* === Footer Styles === */
 footer {
   text-align: center;
   padding: 1rem;
   background-color: #eee;
-  font-size: 0.9rem;
-
-  max-width: 900px;
-  margin: 4rem auto 2rem auto;
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 4rem;
 }
+
 /* ===== Optional Dark Mode Support ===== */
 @media (prefers-color-scheme: dark) {
   body {

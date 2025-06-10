@@ -67,13 +67,11 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+/* === Footer Styles === */
 footer {
-   max-width: 900px;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
-  background-color: transparent;
-  color: var(--text);
-  width: 100%
+  background-color: #eee;
+  padding: 1rem 0;
+  width: 100%;
 }
 
 .footer-inner {
@@ -116,6 +114,14 @@ footer {
   footer {
     background-color: #1e1e1e;
     color: #cccccc;
+  }
+
+    .footer-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #555;
   }
 
   a {

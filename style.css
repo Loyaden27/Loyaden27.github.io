@@ -75,3 +75,46 @@ footer {
   color: #555;
   margin-top: 4rem;
 }
+
+/* ===== Optional Dark Mode Support ===== */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0f1117;
+    color: #f1f1f1;
+  }
+
+  header {
+    background-color: #1e2a38;
+    color: #ffffff;
+  }
+
+  nav {
+    background-color: #1a1f2c;
+  }
+
+  nav a {
+    color: #66b2ff;
+  }
+
+  main {
+    background-color: transparent;
+    color: #f1f1f1;
+  }
+
+  h2 {
+    color: #66b2ff;
+  }
+
+  footer {
+    background-color: #1e1e1e;
+    color: #cccccc;
+  }
+
+  a {
+    color: #66b2ff;
+  }
+
+  a:hover {
+    color: #99ccff;
+  }
+}

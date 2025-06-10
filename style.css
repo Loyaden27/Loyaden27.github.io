@@ -55,6 +55,7 @@ main {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1.5rem;
+  color: var(--text);
 }
 
 section {
@@ -109,7 +110,6 @@ footer {
     color: #cccccc;
   }
 
-\
 
   a {
     color: #66b2ff;

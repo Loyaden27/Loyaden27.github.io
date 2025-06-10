@@ -68,12 +68,16 @@ h2 {
 }
 
 footer {
-  text-align: center;
-  padding: 1rem;
   background-color: #eee;
+  padding: 1rem 0;
+}
+
+.footer-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
   font-size: 0.85rem;
   color: #555;
-  margin-top: 4rem;
 }
 
 /* ===== Optional Dark Mode Support ===== */

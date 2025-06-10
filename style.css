@@ -1,9 +1,9 @@
 /* style.css — shared across all pages */
 :root {
-  --bg: #f9f9fb;
-  --text: #1e1e1e;
-  --accent: #0077cc;
-  --highlight: #eef6fc;
+  --bg: #ffffff;         /* White background for clarity */
+  --text: #1e1e1e;        /* Dark gray text for readability */
+  --accent: #0077cc;      /* Blue accent */
+  --highlight: #f2f9ff;   /* Light blue-gray for nav background */
   --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -55,7 +55,8 @@ main {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1.5rem;
-}
+  background-color: transparent;
+  color: var(--text);
 
 section {
   margin-bottom: 2rem;

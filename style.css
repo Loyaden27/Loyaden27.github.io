@@ -64,9 +64,10 @@ section {
 }
 
 h2 {
-  color: var(--accent);
+  color: #001f3f; /* Matches the new header */
   margin-bottom: 0.5rem;
 }
+
 
 footer {
   text-align: center;
